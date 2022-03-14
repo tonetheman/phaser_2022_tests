@@ -14,7 +14,7 @@ class GameScene extends Phaser.Scene {
 
         // these images must be loaded
         // for GameStack to work
-        let ts = "PNG/default_128/";
+        let ts = "assets/";
         this.load.image("cards", ts+"cards.png");
         this.load.image("heavy", ts+"heavy.png");
         this.load.image("hourglass",ts+"hourglass.png");
